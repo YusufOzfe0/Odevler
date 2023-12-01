@@ -1,0 +1,25 @@
+git config --global user.name kullanıcı adını belirler
+git config --global user.email kullanıcı emaili belirler
+her bir versiyona commit denir
+birden çok versioya branch denir
+git status bize güncel git durumunu gösterir
+git init bir klasörü artık gitleştirmiş olduk
+git add seçili dosya/klasör takibe alınır
+git commit -m "isim" dosyaya commit atar
+git log , logları gösterir
+git add . tüm dosyaları değişikliklere ekler
+.gitignore dosyası add etmiceğimiz dosyaları vb. dosya isimlerini saklar
+git branch mevcut branchlerimiz gösteriri
+git branch newbranchname  yeni branch oluşturur
+git switch feature Head'ımızı değiştirir
+git merge ayrılan dalla ana dalı birleştirir
+fast forwarding yandal oluşturup yandal ile masterı birleştirmek ama master hiç ilerlemedi
+git stash verileri saklar 
+git stash pop saklanan verileri geri alır
+git stash list saklanan verilerin listesini gösterir
+git stash apply stash_ismi seçilen saklı stash ı yükler
+git checkout ile geçmiş commite gideriz
+git revert commit versiyonunu geri alır
+git diff değişikliklerimizi gösterir
+git rebase brancleri sıraya dizer
+
