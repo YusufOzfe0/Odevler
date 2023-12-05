@@ -1,0 +1,75 @@
+\n bir alt satıra geçer
+\t bir tab boşluğu bırakır
+print(f"A={A}") formatı bize A'nın değerini süslü parantezler içine yazar
+input("verilen metin") girdi alır
+not değil ifadesidir
+if elif else anahtar kelimeleri koşullu ifadeleri sağlar
+liste=[] sıralı liste oluşturur
+in anahtar kelimesi bir listede bir üyenin olup olmadığını kontrol eder in bir koşul ifadesidir
+for döngüsü belli bir sayıda döner
+while döngüsünün dönmesinin bir sınırı yoktur
+continue döngünün o adımını atlar
+mod(%) işleminde bir sayının sıfıra bölümünden kalan 0 dır
+def ile fonksiyonlar tanımlanır
+eğer bir değişkenin başına global koyarsak değişken her alanda çalışır
+pass anahtar kelimesi ile fonksiyonları boş geçebiliriz
+lambda ile kısaca bir fonksiyon tanımlayabiliriz
+replace girilen ifadeyi olan ifadeyle değiştirir
+len fonksiyonu stringin uzunluğunu ölçer
+count string içindeki ifadeleri sayar
+is ifadesi bu bu mudur ifadesi anlamına gelir
+format fonksiyonu ile bir stringin içinde {} belirtilen alana istenilen ifade yazılır
+lower fonksiyonu tüm kelimleri küçük harf yapar
+upper fonksiyonu ile tüm kelimeleri büyük harf yapar 
+swapcase fonksiyonu ile küçük ise büyük büyük ise küçük yapar
+capitalize fonksiuyonu sadece başını büyük yapar
+index fonksiyonu ile bir listedeki elemanın kaçıncı sırada olduğunu gösterir
+append fonksiyonu listeye yeni bir eleman ekler
+insert elemanı ile istediğimiz elemanı istediğimiz indise kaydırma yaparak koyabiliriz
+extend fonksiyonu listeleri birleştirir
+reverse fonksiyonu ile bir listemizi ters çevirebiliriz
+min ve max fonksiyonları bize bir listenin min ve max değerlerini veri
+bir string değeri listeye çevirmek için list() fonkisyonunu kullanırız
+remove fonksiyonu ile listeden bir eleman silebiliriz
+pop ile belli bir indisteki elemanı sileriz
+clear ile bir listedeki tüm elemanları sileriz
+short fonksiyonu ile listenin içindeki değerler küçükten büyüğe sıralanır
+enumerate fonksiyonu bir listeyi indisleri ve değerleri olarak iki boyutlu diziye çevirir
+dict fonksiyonu ile bir diziyi sözlüğe çevirebiliriz
+sozluk={} şeklinde sözlük oluşturabiliriz
+get fonksiyonu ile sözlükte bir değerin olup olmadığını görebiliriz
+set={} şeklinde set oluşturabiliriz
+| ifadesi ile iki set elemanlarını birleştirir
+& ifadesi ile iki set arasındaki kesişimi alır
+tuple=() şeklinde bir tuple oluşturabiliriz
+class ile bir sınıf oluşturabiliriz
+__init__ metodu ile bir sınıfta ana yapı oluşturabiliriz
+dir() fonkisyonu ile bir nesnenin özellikleri ve metotlarını görebiliriz
+bir class'ın altına bir class daha tanımlayarak alt class'a kalıtım yapmış oluruz
+class ustSinif: class altsinif(ustSinif): şeklinde miras verebiliriz
+import ile dahili modülleri projemize dahil edebiliriz
+from modul_ismi import * ile modülün tüm fonksiyonlarına ulaşabiliriz
+as ile alınan modülün adını kısaltabiliriz
+ana programımızın çalıştığı yere __main__ denir
+bin fonksiyonu girdiğin değeri binary sistemine çevirir
+hex fonksiyonu girdiğin değeri hexadecimal sistemine çevirir
+chr fonksiyonuna girdiğin değerin karşılığı sembolü çıkar
+tuple=12,33 şeklinde de bir tuple tanımlayabiliriz
+gcd fonksiyonu ile iki sayının en büyük ortak bölenini bulabiliriz
+random modulü ile rastgele bir çok değer üretebiliriz
+turtle kütüphanesi ile çizim yapabiliriz
+setpose ile seçtiğimiz konuma gider
+goto ile seçtiğimiz yöne doğru gider
+home ile 0 0 a geri döner 
+fd ile ileri gider bk ile geri gider
+right ile sağa doğru döner 
+left ile sola doğru döner
+rt(right) ile lt aynı işlemleri görür
+begin_fill ve end_fill fonksiyonları ile çizdiğimiz şeklin içini doldurabiliriz
+circle fonksiyonu ile daire çizebiliriz
+penup ve pendown ile kalemi kaldırıp indirebiliriz
+textinput ve numinput ile sayı ve yazı kullanıcıdan alabiliriz
+setup bgpic ve title komutları ile bir resmi turtle planımızda arka plan yapabiliriz
+Screen fonksiyonu ile ekran ayarlarını ayarlayabiliriz
+onclick fonksiyonu ile üzerine tıklandığında istediğimiz işlemi çalıştırabiliriz
+tracer ile ekran güncelleme ayarlarını kapatabiliriz
