@@ -64,18 +64,18 @@ class WordSearch:
         self.test=test
         self.kelime=kelime
         if(self.varlikTesti(i+1,j)) and ((harf[len(self.kelime)])==(self.board[i+1][j])):
-            kenarlar.append([i+1,j])
+            kenarlar.append([i+1,j]) 
         if(self.varlikTesti(i-1,j)) and ((harf[len(self.kelime)])==(self.board[i-1][j])):
-            kenarlar.append([i-1,j])        
+            kenarlar.append([i-1,j])    
         if(self.varlikTesti(i,j+1)) and ((harf[len(self.kelime)])==(self.board[i][j+1])):
-            kenarlar.append([i,j+1])
+            kenarlar.append([i,j+1]) 
         if(self.varlikTesti(i,j-1)) and ((harf[len(self.kelime)])==(self.board[i][j-1])):
             kenarlar.append([i,j-1])
         if(len(kenarlar)>1):
+            self.kelime.append((harf[len(self.kelime)]))
             for m in kenarlar:
                 if(self.kontrol(m[0],m[1],self.test,self.kelime,harf)):
                     return True
-            
         return False
             
                 
