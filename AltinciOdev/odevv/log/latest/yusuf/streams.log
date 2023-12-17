@@ -1,0 +1,41 @@
+[1.289s] Invoking command in '/home/yusuf/odevv/src/yusuf': PYTHONPATH=/home/yusuf/odevv/build/yusuf/prefix_override:/home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yusuf build --build-base /home/yusuf/odevv/build/yusuf/build install --record /home/yusuf/odevv/build/yusuf/install.log --install-scripts $base/lib/yusuf --single-version-externally-managed
+[1.514s] running egg_info
+[1.514s] creating ../../build/yusuf/yusuf.egg-info
+[1.515s] writing ../../build/yusuf/yusuf.egg-info/PKG-INFO
+[1.515s] writing dependency_links to ../../build/yusuf/yusuf.egg-info/dependency_links.txt
+[1.515s] writing entry points to ../../build/yusuf/yusuf.egg-info/entry_points.txt
+[1.515s] writing requirements to ../../build/yusuf/yusuf.egg-info/requires.txt
+[1.515s] writing top-level names to ../../build/yusuf/yusuf.egg-info/top_level.txt
+[1.516s] writing manifest file '../../build/yusuf/yusuf.egg-info/SOURCES.txt'
+[1.549s] reading manifest file '../../build/yusuf/yusuf.egg-info/SOURCES.txt'
+[1.549s] writing manifest file '../../build/yusuf/yusuf.egg-info/SOURCES.txt'
+[1.549s] running build
+[1.549s] running build_py
+[1.550s] creating /home/yusuf/odevv/build/yusuf/build
+[1.550s] creating /home/yusuf/odevv/build/yusuf/build/lib
+[1.550s] creating /home/yusuf/odevv/build/yusuf/build/lib/yusuf
+[1.550s] copying yusuf/subscriber_member_function.py -> /home/yusuf/odevv/build/yusuf/build/lib/yusuf
+[1.550s] copying yusuf/__init__.py -> /home/yusuf/odevv/build/yusuf/build/lib/yusuf
+[1.550s] copying yusuf/publisher_member_function.py -> /home/yusuf/odevv/build/yusuf/build/lib/yusuf
+[1.550s] running install
+[1.551s] running install_lib
+[1.552s] creating /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf
+[1.552s] copying /home/yusuf/odevv/build/yusuf/build/lib/yusuf/subscriber_member_function.py -> /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf
+[1.552s] copying /home/yusuf/odevv/build/yusuf/build/lib/yusuf/__init__.py -> /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf
+[1.552s] copying /home/yusuf/odevv/build/yusuf/build/lib/yusuf/publisher_member_function.py -> /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf
+[1.553s] byte-compiling /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[1.554s] byte-compiling /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf/__init__.py to __init__.cpython-38.pyc
+[1.554s] byte-compiling /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[1.555s] running install_data
+[1.555s] creating /home/yusuf/odevv/install/yusuf/share/ament_index
+[1.555s] creating /home/yusuf/odevv/install/yusuf/share/ament_index/resource_index
+[1.555s] creating /home/yusuf/odevv/install/yusuf/share/ament_index/resource_index/packages
+[1.556s] copying resource/yusuf -> /home/yusuf/odevv/install/yusuf/share/ament_index/resource_index/packages
+[1.556s] copying package.xml -> /home/yusuf/odevv/install/yusuf/share/yusuf
+[1.556s] running install_egg_info
+[1.557s] Copying ../../build/yusuf/yusuf.egg-info to /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf-0.0.0-py3.8.egg-info
+[1.558s] running install_scripts
+[1.574s] Installing listener script to /home/yusuf/odevv/install/yusuf/lib/yusuf
+[1.574s] Installing talker script to /home/yusuf/odevv/install/yusuf/lib/yusuf
+[1.574s] writing list of installed files to '/home/yusuf/odevv/build/yusuf/install.log'
+[1.594s] Invoked command in '/home/yusuf/odevv/src/yusuf' returned '0': PYTHONPATH=/home/yusuf/odevv/build/yusuf/prefix_override:/home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yusuf build --build-base /home/yusuf/odevv/build/yusuf/build install --record /home/yusuf/odevv/build/yusuf/install.log --install-scripts $base/lib/yusuf --single-version-externally-managed

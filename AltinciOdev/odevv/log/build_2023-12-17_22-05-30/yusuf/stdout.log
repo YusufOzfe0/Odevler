@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/yusuf/yusuf.egg-info
+writing ../../build/yusuf/yusuf.egg-info/PKG-INFO
+writing dependency_links to ../../build/yusuf/yusuf.egg-info/dependency_links.txt
+writing entry points to ../../build/yusuf/yusuf.egg-info/entry_points.txt
+writing requirements to ../../build/yusuf/yusuf.egg-info/requires.txt
+writing top-level names to ../../build/yusuf/yusuf.egg-info/top_level.txt
+writing manifest file '../../build/yusuf/yusuf.egg-info/SOURCES.txt'
+reading manifest file '../../build/yusuf/yusuf.egg-info/SOURCES.txt'
+writing manifest file '../../build/yusuf/yusuf.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yusuf/odevv/build/yusuf/build
+creating /home/yusuf/odevv/build/yusuf/build/lib
+creating /home/yusuf/odevv/build/yusuf/build/lib/yusuf
+copying yusuf/subscriber_member_function.py -> /home/yusuf/odevv/build/yusuf/build/lib/yusuf
+copying yusuf/__init__.py -> /home/yusuf/odevv/build/yusuf/build/lib/yusuf
+copying yusuf/publisher_member_function.py -> /home/yusuf/odevv/build/yusuf/build/lib/yusuf
+running install
+running install_lib
+creating /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf
+copying /home/yusuf/odevv/build/yusuf/build/lib/yusuf/subscriber_member_function.py -> /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf
+copying /home/yusuf/odevv/build/yusuf/build/lib/yusuf/__init__.py -> /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf
+copying /home/yusuf/odevv/build/yusuf/build/lib/yusuf/publisher_member_function.py -> /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf
+byte-compiling /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+byte-compiling /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+running install_data
+creating /home/yusuf/odevv/install/yusuf/share/ament_index
+creating /home/yusuf/odevv/install/yusuf/share/ament_index/resource_index
+creating /home/yusuf/odevv/install/yusuf/share/ament_index/resource_index/packages
+copying resource/yusuf -> /home/yusuf/odevv/install/yusuf/share/ament_index/resource_index/packages
+copying package.xml -> /home/yusuf/odevv/install/yusuf/share/yusuf
+running install_egg_info
+Copying ../../build/yusuf/yusuf.egg-info to /home/yusuf/odevv/install/yusuf/lib/python3.8/site-packages/yusuf-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/yusuf/odevv/install/yusuf/lib/yusuf
+Installing talker script to /home/yusuf/odevv/install/yusuf/lib/yusuf
+writing list of installed files to '/home/yusuf/odevv/build/yusuf/install.log'

@@ -1,0 +1,4 @@
+[console_scripts]
+listener = yusuf.subscriber_member_function:main
+talker = yusuf.publisher_member_function:main
+

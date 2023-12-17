@@ -1,0 +1,6 @@
+source;share/yusuf/hook/pythonpath.ps1
+source;share/yusuf/hook/pythonpath.dsv
+source;share/yusuf/hook/pythonpath.sh
+source;share/yusuf/hook/ament_prefix_path.ps1
+source;share/yusuf/hook/ament_prefix_path.dsv
+source;share/yusuf/hook/ament_prefix_path.sh
