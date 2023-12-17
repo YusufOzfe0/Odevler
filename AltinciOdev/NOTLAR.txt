@@ -1,0 +1,27 @@
+Öncelikle istediğimiz herangir bir dizin üzerine bir tane workspace dosyamızı açıyoruz.
+Bu dosyada src dizini olmalıdır.
+rosdep install -i --from-path src --rosdistro foxy -y komutu ile src dosyamızdaki paketlerde bir problem olup olmadığını veya derleme sırasında bir hata oluşup oluşamıcağını kontrol ediyoruz.
+Bir inşaat yapıldığını varsayalım ve inşaat alanı bizim workspace'imiz olsun bu inşaatın mühendisini colcon komutu gibi düşünebiliriz. Ve yapı kontrolcüsünü de rosdep komutu olarak düşünebiliriz.
+Oluşturduğumuz workspace'in içini colcon build komutu ile derleyebiliriz.
+Workspace imiz derlendikten sonra workspace'imizin içine 4 tane dizin oluşturulur.
+Build sıkıştırlmış dosyaları tutar
+Install bizim derlenmiş olan paketlerimizi tutar
+Log dizininde yapılmış olan değişiklikler tutulur
+source install/local_setup.bash komutu ile ana paketimizin üzerinde değişiklik yapmadan paketimizi test edebiliriz
+Bir paket oluşturduğumuzda içinde mutlaka olması gereken bazı şeyler vardır.
+Bunları colcon komutu çalıştırdığımızda colcon komutu otamatik üretir.
+package.xml belgesi paketimiz için gerekli olan bağımlılık dosyalarını ve lisans benzeri kullanıcı isimleri gibi bilgileri saklar,aynı zamanda paketimizin inşa tipini de içinde belirtir
+setup.cfg belgesi bizim paketimizin çalışcağı yolu colcona bildirir.
+setup.py adı üstünde setup belgesidir, package.xml gibi kullanıcı bilgilerini saklar ama farklı olarak konsolda bir komut çalıştığı zaman o komutun hangi dizindeki hangi belgeyi çalıştırcağını seçer
+Bir de paket ismimizle aynı bir dizin vardır. Bu dizinde bizim node'lerimizin kodunu koyarız
+publisher ve subscriber nodelerini oluştururken öncelikle rclpy ve std_msgs kütüphanelerinden gerekli olan sınıflarımızı import ederiz.
+Ardından Node sınıfımızı ana Node sınıfından miras alırız. 
+Ardından yapıcı fonksiyona node'mizin ismini göndeririz.
+creat fonksiyonu ile gönderilecek mesaj tipini mesajın hangi konuya gönderileceğini(publisher için), mesajımızı tiğini mesajın hangi konudan geliceğini(subscriber için) belirtiriz,bu fonksiyonda maksimum kaç mesajın subscriber alıcısı için biriktiriceğimizi yazarız
+publisher'de zamanlayıcı fonksiyonu kurarız çünkü ne kadar zamanda mesajı göndericeğimizi seçeriz.
+bu zamanlayıcı mesajı iinde barındırır ve publisher_.publish(msg) fonksiyonu ile bu mesajı göndeririz
+log fonksiyonu ile'de gerçekleştirişmiş olan şeyleri loglarız
+Ana fonksiyonda önce rclpy.init(args=args) komutu pthon istemcisini başlatır.
+Sonra bir oluşturduğumuz sınfın bir nesnesini oluştururuz.
+bu nesneyi sürekli dönmesi için rclpy.spin fonksiyonuna göndeririz
+en son nodemizi yok eder ve rclpy mizi kapatırız
